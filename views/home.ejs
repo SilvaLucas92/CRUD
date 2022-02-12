@@ -1,0 +1,29 @@
+
+    <%- include("./partials/head", {pageTitle: 'Home'}) %>
+<body>
+
+    <%- include('./partials/header.ejs') %>
+
+    <main>
+
+        <section class="main-section">
+            <% for (let i = 0; i < product.length; i++) { %> 
+            <article class="pdt-article">
+                <a href="/detail/<%= product[i].id %>">
+                <img src="/images/<%= product[i].image %>" alt="">
+                <div class="art-text">
+                    <h3><%= product[i].name %></h3>
+                    <span>$ <%= product[i].price %></span>
+                    <p>3 cuotas sin interes</p>
+                </div>
+                </a>
+            </article>
+            <% } %>
+        </section>
+
+    </main>
+
+    <%- include('./partials/footer.ejs') %>
+
+</body>
+</html>

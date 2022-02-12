@@ -1,0 +1,23 @@
+
+    <%- include("./partials/head", {pageTitle: 'Create'}) %>
+    <body>
+    
+        <%- include('./partials/header.ejs') %>
+    <div class="div-create"> 
+        <form action="/edit/<%= product.id %>?_method=put" method="POST" enctype="multipart/form-data" class="container-create">
+            <h2>Estas modificando el producto: <%= product.description %> </h2>
+            <input type="text" name="name" placeholder="Nombre del producto">
+            <input type="text" name="description" placeholder="Inserte una Descripcion">
+            <div class="div-input-file">
+                <label for="input-file"> Ingrese una Imagen </label>
+                <input  id="input-file" type="file" name="image" class="file-input" >
+            </div>
+            <input type="text" name="price" placeholder="Inserte el precio del producto">
+            <button type="submit">Enviar</button>
+        </form>
+    </div>       
+
+        <%- include('./partials/footer.ejs') %>
+
+    </body>
+    </html>

@@ -1,0 +1,79 @@
+[
+ {
+  "name": "Remera",
+  "description": "remera",
+  "price": "8500",
+  "image": "img - 1644687115048-98405524-image.jpg",
+  "id": 7
+ },
+ {
+  "name": "Remera",
+  "description": "Remera",
+  "price": "5500",
+  "id": 8,
+  "image": "img - 1644687194656-43995788-image.jpg"
+ },
+ {
+  "name": "Buzo",
+  "description": "Buzo dragon",
+  "price": "4500",
+  "id": 9,
+  "image": "img - 1644687221156-393784351-image.jpg"
+ },
+ {
+  "name": "Buzo",
+  "description": "Buzo LA",
+  "price": "8500",
+  "image": "img - 1644684886047-506566132-image.jpg",
+  "id": 10
+ },
+ {
+  "name": "Buzo",
+  "description": "Buzo dragon",
+  "price": "6700",
+  "image": "img - 1644684893552-315311815-image.jpg",
+  "id": 11
+ },
+ {
+  "name": "Sobretodo",
+  "description": "Sobretodo marron",
+  "price": "12000",
+  "image": "img - 1644684967358-480270592-image.jpg",
+  "id": 14
+ },
+ {
+  "name": "Buzo",
+  "description": "Buzo LA",
+  "price": "5500",
+  "image": "img - 1644684980656-451239489-image.jpg",
+  "id": 15
+ },
+ {
+  "name": "Biker",
+  "description": "Biker negro",
+  "price": "4000",
+  "image": "img - 1644685026843-848272504-image.jpg",
+  "id": 16
+ },
+ {
+  "name": "Biker",
+  "description": "Biker animal print",
+  "price": "4850",
+  "image": "img - 1644685033704-534247008-image.jpg",
+  "id": 17
+ },
+ {
+  "name": "Remera higher",
+  "description": "Remera over-size",
+  "price": "3900",
+  "image": "img - 1644685096210-395217463-image.jpg",
+  "id": 18
+ },
+ {
+  "name": "Buzo Jamaica",
+  "description": "Buzo Jamaica over-size",
+  "price": "8900",
+  "image": "img - 1644685122790-475195134-image.jpg",
+  "id": 19
+ }
+]

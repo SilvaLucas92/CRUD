@@ -1,0 +1,39 @@
+
+    <%- include("./partials/head", {pageTitle: 'Detail'}) %>
+    <body>
+    
+        <%- include('./partials/header.ejs') %>
+
+        <main>
+            <section class="main-container-detail">
+                
+                    <div class="div-container-detail">
+                        <img src="/images/<%= product.image %>" alt="">
+                    </div>        
+                        <div class="div-content-detail">
+                            <h2><%= product.name %> </h2>
+                            <h3> $ <%= product.price %> </h3>
+                            <p> <%= product.description %> </p>
+                        <label>Cantidad</label>
+                        <select name="" id="">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                        <div class="button-detail">
+                            <a href="/edit/<%= product.id %> ">
+                                <button type="submit" >Modificar</button>
+                            </a> 
+                            <form method="post" action="/<%= product.id %>?_method=delete">
+                                <button type="submit">Borrar Producto</button>
+                            </form> 
+                        </div>
+                        </div>
+            </section>
+        </main>
+
+
+        <%- include('./partials/footer.ejs') %>
+
+    </body>
+    </html>
